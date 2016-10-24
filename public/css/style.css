@@ -1,0 +1,83 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+.imgclosed{
+  position:block;
+  margin-left: -2px;
+  margin-right: -2px;
+  margin-top: -5px;
+  max-width: 400px;
+  max-height: 400px;
+  min-width: 150px;
+  min-height: 150px;
+
+}
+.services{
+  max-width: 225px;
+  max-height: 225px;
+  min-height: 50px;
+  min-width: 50px;
+}
+.tryimg{
+
+  max-width: 1200px;
+  max-height: 800px;
+  min-width: 300px;
+  min-height: 450pX;
+
+}
+.button-slapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  max-height: 900px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+    height: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
